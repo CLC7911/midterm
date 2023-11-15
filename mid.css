@@ -1,58 +1,264 @@
-header {
-    background-color: #8E90C1;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    font-size: 60px;
+* {
+    box-sizing: border-box;
 }
 
+
+nav {
+    background-color: #8E90C1;
+    color: #7386C1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+nav a {
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #B8C0E5;
+    color: white;
+}
+
+
+
 body {
-    background-image: url(S__38412290_0.jpg);
+    background-image: url(image/background\ water.jpg);
+    position: relative;
 
 }
 
 h2 {
-    background-color: rgb(251, 211, 255);
+    background-color: #B8C0E5;
     color: aliceblue;
     font-size: 40px;
 }
 
-meter {
-    color: #000;
+h3 {
+    margin: 3px;
 }
 
-.line {
-    accent-color: aquamarine;
-}
-
-
-
-.seif {
-
-    background-image: url(image/card_img.jpg);
-    background-size: cover;
+.self img {
+    width: 25%;
     padding: 20px;
+    border-radius: 10%;
+
+
+
+}
+
+.aboutme {
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 10%;
+    width: 600px;
+    height: 400px;
+}
+
+
+.abmewd {
+    text-align: center;
+    size: 60px;
+    position: relative;
+    word-spacing: 3px;
+    line-height: 70px;
+    margin-left: 650px;
+    margin-top: -500px;
+}
+
+
+.skill {
+    font-size: 40px;
+    color: #24396D;
+    font-weight: 100;
+
+}
+
+progress {
+    accent-color: #8E90C1;
+    position: relative;
+    height: 70px;
+    width: 1100px;
+    display: inline-block;
+
+}
+
+
+
+
+.contact img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.contact {
+    position: relative;
+    display: flow-root;
+
+
+}
+
+.contact a {
+    margin-left: 30px;
+}
+
+
+
+.card {
+
+    background-color: #DCE3F7;
+    background-size: cover;
+    padding: 40px;
     margin: 20px 10px;
     border-radius: 15px;
     image-orientation: 50%;
+    font-size: 50px;
+    color: #24396D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-@media screen and (max-width:800px) {
+.clearfix {
+    clear: both;
+}
 
 
-    article,
-    aside {
-        float: left;
-        width: 50%;
-    }
+.ig2 img {
+    width: 30%;
+    padding: 20px;
+    border-radius: 10%;
+    position: relative;
+    top: -100px;
 
-    .card {
-        padding: 5x;
-        margin: 10px 0px;
-    }
+}
 
-    img {
-        max-width: 50%;
-        height: 20%;
-    }
+.business img {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10%;
+    position: relative;
+    top: -400px;
+
+}
+
+
+.podcast img {
+    width: 40%;
+    padding: 20px;
+    border-radius: 10%;
+    position: absolute;
+    top: 3400px;
+
+}
+
+.sound img {
+    width: 30%;
+    padding: 20px;
+    border-radius: 13%;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    left: 950px;
+}
+
+.tit1 {
+    position: relative;
+    top: 20px;
+
+}
+
+.tit2 {
+    position: relative;
+    top: -400px;
+
+}
+
+.tit3 {
+    position: relative;
+    top: -600px;
+
+}
+
+.tit4 {
+    position: relative;
+    top: -400px;
+
+}
+
+.wd1 {
+    width: 900px;
+    height: 300px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -400px;
+    left: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wd2 {
+    width: 800px;
+    height: 200px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -800px;
+    left: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wd3 {
+    width: 800px;
+    height: 200px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -500px;
+    left: 600px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wd4 {
+    width: 900px;
+    height: 300px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -450px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wd5 {
+    width: 900px;
+    height: 300px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    top: -300px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.makeup img {
+    width: 30%;
+    padding: 20px;
+    border-radius: 13%;
+    position: absolute;
+    top: 5200px;
+    left: 950px;
+}
+
+footer {
+    background-color: #7386C1;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
 }
