@@ -1,0 +1,58 @@
+header {
+    background-color: #8E90C1;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 60px;
+}
+
+body {
+    background-image: url(S__38412290_0.jpg);
+
+}
+
+h2 {
+    background-color: rgb(251, 211, 255);
+    color: aliceblue;
+    font-size: 40px;
+}
+
+meter {
+    color: #000;
+}
+
+.line {
+    accent-color: aquamarine;
+}
+
+
+
+.seif {
+
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    image-orientation: 50%;
+}
+
+@media screen and (max-width:800px) {
+
+
+    article,
+    aside {
+        float: left;
+        width: 50%;
+    }
+
+    .card {
+        padding: 5x;
+        margin: 10px 0px;
+    }
+
+    img {
+        max-width: 50%;
+        height: 20%;
+    }
+}
